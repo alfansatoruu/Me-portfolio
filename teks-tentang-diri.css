@@ -1,0 +1,36 @@
+.about-container {
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 30px 25px;
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeSlideUp 2s ease-out forwards;
+}
+
+.about-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.teks-tentang-diri {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+@keyframes fadeSlideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

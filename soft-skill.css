@@ -1,0 +1,33 @@
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.skills-column {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 14px;
+  color: #333;
+  flex: 1;
+}
+
+.skills-left {
+  align-items: flex-start;
+}
+
+.skills-right {
+  align-items: flex-end;
+}
+
+.skills-item strong {
+  font-weight: 600;
+  color: #000;
+}
